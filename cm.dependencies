@@ -16,8 +16,8 @@
    "target_path": "vendor/broadcom"
  },
  {
-   "repository": "proprietary_vendor_imgtech",
-   "target_path": "vendor/imgtech"
+   "repository": "proprietary_vendor_imgtec",
+   "target_path": "vendor/imgtec"
  },
  {
    "repository": "proprietary_vendor_invensense",
