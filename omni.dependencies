@@ -14,6 +14,7 @@
     {
         "repository": "proprietary_vendor_imgtec",
         "target_path": "vendor/imgtec"
+        "revision": "omni-4.4-pvr"
     },
     {
         "repository": "proprietary_vendor_invensense",
