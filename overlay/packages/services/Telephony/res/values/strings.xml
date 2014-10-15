@@ -16,12 +16,10 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="cell_broadcast_sms">Emergency Alerts SMS</string>
-
     <!-- Bug in RIL. It believes 7 is CDMA/LTE/EVDO even though that contradicts ril.h -->
-    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Preferred network mode: 4G / LTE</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary" translatable="false">Preferred network mode: 4G / LTE</string>
 
-    <string-array name="preferred_network_mode_choices">
+    <string-array name="preferred_network_mode_choices" translatable="false">
         <item>4G/LTE</item>
         <item>3G/CDMA</item>
     </string-array>
@@ -39,6 +37,6 @@
         <item>"4"</item>
     </string-array>
 
-    <string name="network_lte">4G/LTE</string>
+    <string name="network_lte" translatable="false">4G/LTE</string>
     <string name="network_3G" translatable="false">3G/CDMA</string>
 </resources>
