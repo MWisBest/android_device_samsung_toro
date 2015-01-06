@@ -19,9 +19,12 @@
     <!-- Bug in RIL. It believes 7 is CDMA/LTE/EVDO even though that contradicts ril.h -->
     <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary" translatable="false">Preferred network mode: 4G / LTE</string>
 
+    <string name="network_lte" translatable="false">4G/LTE</string>
+    <string name="network_3G" translatable="false">3G/CDMA</string>
+
     <string-array name="preferred_network_mode_choices" translatable="false">
-        <item>4G/LTE</item>
-        <item>3G/CDMA</item>
+        <item>@string/network_lte</item>
+        <item>@string/network_3G</item>
     </string-array>
     <string-array name="preferred_network_mode_values" translatable="false">
         <item>"7"</item>
@@ -29,14 +32,11 @@
     </string-array>
 
     <string-array name="enabled_networks_cdma_choices" translatable="false">
-        <item>4G/LTE</item>
-        <item>3G/CDMA</item>
+        <item>@string/network_lte</item>
+        <item>@string/network_3G</item>
     </string-array>
     <string-array name="enabled_networks_cdma_values" translatable="false">
         <item>"7"</item>
         <item>"4"</item>
     </string-array>
-
-    <string name="network_lte" translatable="false">4G/LTE</string>
-    <string name="network_3G" translatable="false">3G/CDMA</string>
 </resources>
