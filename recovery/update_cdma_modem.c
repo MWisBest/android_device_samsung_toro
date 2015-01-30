@@ -48,7 +48,7 @@
 
 /* buffer type for modem image */
 struct dpram_firmware {
-  char *firmware;
+  const char *firmware;
   int size;
   int is_delta;
 };
